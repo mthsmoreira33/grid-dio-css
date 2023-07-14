@@ -48,10 +48,30 @@ body {
 
 .aside {
     grid-area: aside;
-    background: #BC20E2;
+    background: #FFF;
+    padding: 30px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 30px
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+
+.item a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
 }
 
 .main {
     grid-area: main;
-    background: darkmagenta;
+    background: #c5c5c5;
 }
